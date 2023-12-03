@@ -39,14 +39,10 @@ find_package(catkin REQUIRED COMPONENTS
  generate_messages(
    DEPENDENCIES
    actionlib_msgs
-   std_msgs
  )
 
 
 catkin_package(
-   LIBRARIES actionlib_tutorials
-   CATKIN_DEPENDS actionlib actionlib_msgs message_generation roscpp rospy std_msgs
-   DEPENDS system_lib
 )
 
 
